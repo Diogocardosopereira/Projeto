@@ -18,7 +18,7 @@
 
        <label for="endereço">endereço</label>
        <input type="text" class="form-control" name="endereço">
-       <input type="submit">
+       <input type="su">
    
        </center>
     </form>    

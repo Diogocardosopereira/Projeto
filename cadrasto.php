@@ -14,7 +14,8 @@
   <div class="container">  
    <div class="row">  
     <div class="col">   
-     <h1>Cadastro</h1>
+    <div class="tela-login">
+    <h1>Cadastro</h1>
        <form method="POST" action="cadrasto2.php">
        <div class="form-group">
      <label for="name">nome</label>
@@ -35,7 +36,7 @@
   <div>
   </form>
   <br>
-    <a href="index.php" class="btn btn-info">Voltar para o Inicio</a>   
+    <a href="index.php"  name="update" id="update">Voltar para o Inicio</a>   
    
   </div>
 

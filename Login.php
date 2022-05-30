@@ -13,7 +13,8 @@
   <div class="container">  
    <div class="row">  
     <div class="col">   
-     <h1>Login</h1>
+     <div class="tela-login">
+    <h1>Login</h1>
        <form>
      <div class="form-group">
      <label for="email">email</label>
@@ -25,17 +26,18 @@
    </div>  
    <div class="form-group">
    <br>
-   <input type="submit" name="update" id="update">
+   <a input type="Entrar" name="update" id="update"> Entrar</a>
    </div>
+   <br></br>
   <div>
   </form>
-  <br>
-  <a href="index.php" class="btn btn-info">Voltar para oInicio</a>   
+  
+  <a href="index.php"  name="update" id="update"> Voltar para o Inicio</a>   
 </div>
 
 </center>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-   
+    </div>
   </body>
 </html>
 

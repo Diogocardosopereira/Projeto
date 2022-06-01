@@ -17,11 +17,11 @@
    {  
      
     $nome = $user_data['nome'];
-     $email = $$user_data['email'];
-     $senha = $$user_data['senha'];
+     $email = $user_data['email'];
+     $senha = $user_data['senha'];
 
    }
-  print_r($nome);
+  
   }
    else   
      {
@@ -66,10 +66,10 @@
      <label for="nome">senha</label>
      <input type="type" class="form-control" name="senha" value="<?php echo $senha ?>">
    </div>   
-   <div class="form-group">
-    <br>
-    <input type="hidden" name="id" value="<?php echo $id ?>">
-    <input type="submit" name="update" id="update">
+    <input type="hidden" name="id" value="<?php echo $id?>">
+   <br>
+    
+    <input type="submit" href="index.php" name="update" id="update">
     
    </div>
   <div>

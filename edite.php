@@ -3,30 +3,33 @@
   if(!empty($_GET['id']))
   {
 
-    include_once('cconexao.php');
+    include_once('conexao.php');
 
     $id = $_GET['id'];
 
-    $sqlSelect = "SELECT * FROM usuarios WHERE id=$id";
+    $sqlSelect = "SELECT * FROM usuario WHERE id=$id";
 
     $result = $conexao->query($sqlSelect);
 
-    print_r($result);
+    if($result->num_rows > 0)
+   {
+     while($user_data = mysqli_fetch_assoc($result))
+   {  
+     
+    $nome = $user_data['nome'];
+     $email = $$user_data['email'];
+     $senha = $$user_data['senha'];
 
-    $nome = $_POST['nome'];
-    $email = $_POST['email'];
-    $senha = $_POST['senha'];
+   }
+  print_r($nome);
   }
+   else   
+     {
+    header('Location: tabeladeUs.php');
 
+     }
 
-
-
-
-
-
-
-
-
+  }
 ?>
 
 

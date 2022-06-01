@@ -1,34 +1,33 @@
 <?php
-  if(isset($_POST['submit']));
+  
+  if(!empty($_GET['id']))
   {
-  include_once('conexao.php');
+
+    include_once('cconexao.php');
+
+    $id = $_GET['id'];
+
+    $sqlSelect = "SELECT * FROM usuarios WHERE id=$id";
+
+    $result = $conexao->query($sqlSelect);
+
+    print_r($result);
 
     $nome = $_POST['nome'];
     $email = $_POST['email'];
-    $senha = $_POST['senha'];
+    $sen = $_POST['nome'];
+  }
 
-     $result = mysqli_query($conexao, "INSERT INTO usuario (nome, email, senha)
-     VALUES ('$nome','$email',''$senha' )");
-  
-  header('Location: Login.php');
-}
 
- 
+
+
+
+
+
+
 
 
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!doctype html>
@@ -43,12 +42,14 @@
 
   </head>
   <body>
-  
+  <br>
+  <a href="tabeladeUs.php"  name="update" id="update">Voltar</a>
   <center>
   <div class="container">  
    <div class="row">  
     <div class="col">   
-     <h1>Cadastro</h1>
+    <div class="tela-login">
+    <h1>Cadastro</h1>
        <form method="POST" action="saveEdit.php">
        <div class="form-group">
      <label for="name">nome</label>
@@ -65,14 +66,13 @@
    <div class="form-group">
     <br>
   
+    <input type="submit" name="update" id="update">
     
-    <input type="submit" name="btn btn-info" value="Salvar alteraçoes">
    </div>
   <div>
   </form>
-  <br>
-    <a href="index.php" class="btn btn-info">Voltar para o Inicio</a>   
-   
+  
+  
   </div>
 
 </center>

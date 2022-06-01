@@ -1,3 +1,50 @@
+<?php
+   include_once('conexao.php');
+
+   if(isset($_POST['email']) || isset($_POST['senha'])){
+
+    if(strlen($_POST['email']) == 0){
+         echo "preencha seu e-mail";
+     } else if(strlen($_POST['senha']) == 0){
+         echo "preencha sua senha";
+     } else {
+    
+       $email = $conexao->real_escape_string($_POST['email']);
+       $senha = $conexao->real_escape_string($_POST['senha']);
+       
+       $sql_code = "SELECT * FROM usuario WHERE email = '$email' AND senha = '$senha'";
+       $sql_query = $conexao->query($sql_code) or die("falha na execução do codigo SQL: " . $mysql->error);
+
+       $quantidade = $sql_query->num_rows;
+
+       if($quantidade == 1){
+
+          $usuario = $sql_query->fetch_assoc();
+       
+          if(!isset($_SESSION)){
+             session_start();
+          }
+
+          $_SESSION['id'] = $usuario['id'];
+          $_SESSION['nome'] = $usuario['nome'];
+
+          header("Location: painel.php");
+
+        } else {
+         echo "falha ao logar! E-mail ou senha incorretos";
+       }
+
+
+
+    }
+     
+  }
+
+
+
+?>
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -14,9 +61,10 @@
    <div class="row">  
     <div class="col">   
      <div class="tela-login">
-    <h1>Login</h1>
-       <form>
-     <div class="form-group">
+    <h1>Acesse sua conta</h1>
+       <form action="" method="POST">
+      
+       <div class="form-group">
      <label for="email">email</label>
      <input type="email" class="form-control" name="email">
     </div>  
@@ -26,13 +74,16 @@
    </div>  
    <div class="form-group">
    <br>
-   <a input type="Entrar" name="update" id="update"> Entrar</a>
+   <input type="submit" name="update" id="update">
    </div>
-   <br></br>
-  <div>
+   <br>
+   <a href="cadrasto.php">Ainda não é inscrito?<strong>Cadastre-se!</Cadastre-se></strong></a>
+   <br><br/>
+   <div>
   </form>
   
   <a href="index.php"  name="update" id="update"> Voltar para o Inicio</a>   
+
 </div>
 
 </center>

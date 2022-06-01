@@ -1,7 +1,6 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(45deg, rgb(61, 136, 186), rgb(226, 222, 222));
-    
+   background-image: url(../img/boku.jpg);
+  background-size: cover;
 }
 
 body{
@@ -23,7 +22,7 @@ body{
   }
 
   #update{
-      background-image: linear-gradient(to right,rgba(10, 119, 252, 0.994), rgba(25, 62, 113, 0.954));
+      background-image: linear-gradient(to right,rgba(239, 42, 207, 0.994), rgba(6, 210, 210, 0.954));
       width: 100%;
       border: none;
       padding: 15px;
@@ -34,11 +33,11 @@ body{
   
     }
      #update:hover{
-         background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(24, 73, 106));
+         background-image: linear-gradient(to right,rgb(143, 0, 172), rgb(10, 135, 147));
 
      }
      .tela-login{
-       background-image:linear-gradient(to right,rgb(45, 96, 154), rgb(0, 0, 0));
+       background-image:linear-gradient(to right,rgb(75, 76, 75), rgb(0, 0, 0));
        top: 50%;
        left: 50%;
        padding: 80px;
@@ -47,4 +46,10 @@ body{
 
 
       }
+
+      .table-bg{
+        background: rgba(0, 0, 0,0.3);
+       border-radius: 15px 15px 0 0;
+      }
+      
       

@@ -1,0 +1,16 @@
+body{
+    background-image: url(../img/Force\ Extreme\ \(1\).jpg);
+    background-size: cover ;
+    
+}
+
+h1 {
+    font-size:x-large;
+    color: rgba(255, 255, 255, 0.953);
+    text-align: center;
+}
+p {
+    color: rgb(255, 255, 255);
+    font-family: verdana;
+    font-size: 20px;
+}

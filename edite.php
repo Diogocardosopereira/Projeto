@@ -1,4 +1,22 @@
+<?php
+  if(isset($_POST['submit']));
+  {
+  include_once('conexao.php');
 
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
+
+     $result = mysqli_query($conexao, "INSERT INTO usuario (nome, email, senha)
+     VALUES ('$nome','$email',''$senha' )");
+  
+  header('Location: Login.php');
+}
+
+ 
+
+
+?>
 
 
 
@@ -34,20 +52,20 @@
        <form method="POST" action="saveEdit.php">
        <div class="form-group">
      <label for="name">nome</label>
-     <input type="text" class="form-control" name="nome" value="<?php echo $nome?>">
+     <input type="text" class="form-control" name="nome">
     </div>  
        <div class="form-group">
      <label for="email">email</label>
-     <input type="email" class="form-control" name="email" value="<?php echo $email?>">
+     <input type="email" class="form-control" name="email">
     </div>  
     <div class="form-group">
      <label for="nome">senha</label>
-     <input type="type" class="form-control" name="senha" value="<?php echo $senha?>">
+     <input type="type" class="form-control" name="senha">
    </div>   
    <div class="form-group">
     <br>
   
-    <input type="hidden" name="id" value="<?php echo $id ?>">
+    
     <input type="submit" name="btn btn-info" value="Salvar alteraçoes">
    </div>
   <div>

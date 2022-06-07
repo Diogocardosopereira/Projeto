@@ -19,5 +19,6 @@
     
   $result = $conexao->query($sqlUpdate);
       }
-       header('Location, tabeladeUs.php');
+       header('Location: tabeladeUs.php');
 ?>
+

@@ -14,6 +14,7 @@ body{
     font-size: x-large;
     color: rgba(255, 255, 255, 0.953);
     text-align: center;
+    
   }
   
   p {
@@ -30,6 +31,7 @@ body{
       font-size: 15px;
       cursor: pointer;
       border-radius: 10px;
+      text-decoration: none;
   
     }
      #update:hover{
@@ -43,6 +45,7 @@ body{
        padding: 80px;
        border-radius: 15px;
        color: white;
+       
 
 
       }

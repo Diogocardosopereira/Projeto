@@ -33,6 +33,7 @@
          echo "erro".mysqli_connect_error($conexao);
      }
         mysqli_close($conexao);
+        header('Location: index.php');
     
 ?>
 

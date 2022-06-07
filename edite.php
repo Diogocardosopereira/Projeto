@@ -52,7 +52,7 @@
    <div class="row">  
     <div class="col">   
     <div class="tela-login">
-    <h1>Cadastro</h1>
+    <h1>Editar usuario</h1>
        <form method="POST" action="saveEdit.php">
        <div class="form-group">
      <label for="name">nome</label>

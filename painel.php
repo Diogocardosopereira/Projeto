@@ -1,8 +1,6 @@
 <?php
+include_once('protect.php'); 
 
-  if(isset($_SESSION)){
-      session_start();
-  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,6 +12,8 @@
     <title>painel</title>
 </head>
 <body>
-    Bem vindo ao painel, <?php echo $_SESSION['nome']; ?>
+
+<div class="painel">
+Bem vindo ao painel de usuario <?php echo $_SESSION['nome']; ?>
 </body>
 </html>

@@ -38,6 +38,7 @@ body{
          background-image: linear-gradient(to right,rgb(143, 0, 172), rgb(10, 135, 147));
 
      }
+      
      .tela-login{
        background-image:linear-gradient(to right,rgb(75, 76, 75), rgb(0, 0, 0));
        top: 50%;
@@ -49,7 +50,8 @@ body{
 
 
       }
-
+      
+    
       .table-bg{
         background: rgba(0, 0, 0,0.3);
        border-radius: 15px 15px 0 0;
@@ -71,5 +73,13 @@ body{
       border-radius: 10px;
       text-decoration: none;
       position: absolute;
+    }
+
+    form .row img
+    {
+     width: 60px;
+     height: 60px;
+     cursor: pointer;
+
     }
       

@@ -3,7 +3,7 @@ include_once('protect.php');
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,5 +15,10 @@ include_once('protect.php');
 
 <div class="painel">
 Bem vindo ao painel de usuario <?php echo $_SESSION['nome']; ?>
+
+<p>
+
+    <a href="logout.php"  name="update" id="update">Sair</a>
+</p>
 </body>
 </html>

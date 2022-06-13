@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
    
     <meta charset="utf-8">
@@ -19,15 +19,15 @@
        <form method="POST" action="cadrasto2.php">
        <div class="form-group">
      <label for="name">nome</label>
-     <input type="text" class="form-control" name="nome">
+     <input type="text" class="form-control" name="nome" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);">
     </div>  
        <div class="form-group">
      <label for="email">email</label>
-     <input type="email" class="form-control" name="email">
+     <input type="email" class="form-control" name="email"  onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);">
     </div>  
     <div class="form-group">
      <label for="nome">senha</label>
-     <input type="type" class="form-control" name="senha">
+     <input type="type" class="form-control" name="senha"  onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);">
    </div>   
    <div class="form-group">
     <br>

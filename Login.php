@@ -1,3 +1,4 @@
+<div class="painel">
 <?php
    include_once('conexao.php');
 
@@ -43,10 +44,10 @@
 
 
 ?>
-
+</div>
 
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
    
     <meta charset="utf-8">

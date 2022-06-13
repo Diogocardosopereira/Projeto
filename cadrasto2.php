@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
    
     <meta charset="utf-8">
@@ -17,10 +17,12 @@
 
 <?php
   
+  session_start();
       include_once("conexao.php");
       $nome = $_POST["nome"];
       $email = $_POST["email"];
       $senha = $_POST["senha"];
+      
       
       
       $sql= "INSERT INTO usuario( nome, email, senha)

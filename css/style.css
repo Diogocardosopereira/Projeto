@@ -57,8 +57,19 @@ body{
 
       .painel{
         font-family: verdana;
-          font-size: 16px;
-           color: #26a96a;
+          font-size: 15px;
+           color: #a7ff04;
         }
-    
+     #app{
+      background-image: linear-gradient(to right,rgba(239, 42, 207, 0.994), rgba(6, 210, 210, 0.954));
+      width: 10%;
+      border: none;
+      padding: 15px;
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+      border-radius: 10px;
+      text-decoration: none;
+      position: absolute;
+    }
       

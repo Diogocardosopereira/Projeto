@@ -1,3 +1,6 @@
+
+
+
 <?php
   
 if(!isset($_SESSION)){
@@ -5,6 +8,7 @@ if(!isset($_SESSION)){
 }
 
 if(!isset($_SESSION['id'])){
-    die("você não pode acessar esta pagina porque não esta logado por favo faça login novamente.<p><a href=\"login.php\">Entrar</a></p>");
+    die("você não pode acessar esta pagina porque não esta logado por favo faça login novamente.<p><a href=\"index.php\">Faça login</a></p>");
 }
 ?>
+

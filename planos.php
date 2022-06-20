@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/estilo.css">
     <title>perfil</title>
 </head>
 <body>
-   
-</svg></div><div class="elementor-container elementor-column-gap-wide"><div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ef700df" data-id="ef700df" data-element_type="column"><div class="elementor-widget-wrap elementor-element-populated"><section class="elementor-section elementor-inner-section elementor-element elementor-element-64370bf elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default" data-id="64370bf" data-element_type="section"><div class="elementor-container elementor-column-gap-default"><div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b980d2b" data-id="b980d2b" data-element_type="column"><div class="elementor-widget-wrap elementor-element-populated"><div class="elementor-element elementor-element-75c4a15 animated-fast elementor-widget elementor-widget-image animated zoomIn" data-id="75c4a15" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default"><div class="elementor-widget-container">
-<img data-lazyloaded="1" data-placeholder-resp="316x330" src="https://lapateam.com/wp-content/uploads/2021/10/selo-garantia-7dias-low.png" width="316" height="330" data-src="https://lapateam.com/wp-content/uploads/2021/10/selo-garantia-7dias-low.png" class="attachment-large size-large litespeed-loaded" alt="Garantia Lapa - 7 dias grátis - cancele sem multa" loading="lazy" data-srcset="https://lapateam.com/wp-content/uploads/2021/10/selo-garantia-7dias-low.png 316w, https://lapateam.com/wp-content/uploads/2021/10/selo-garantia-7dias-low-287x300.png 287w" data-sizes="(max-width: 316px) 100vw, 316px" sizes="(max-width: 316px) 100vw, 316px" srcset="https://lapateam.com/wp-content/uploads/2021/10/selo-garantia-7dias-low.png 316w, https://lapateam.com/wp-content/uploads/2021/10/selo-garantia-7dias-low-287x300.png 287w" data-was-processed="true"><noscript><img width="316" height="330" src="https://lapateam.com/wp-content/uploads/2021/10/selo-garantia-7dias-low.png" class="attachment-large size-large" alt="Garantia Lapa - 7 dias grátis - cancele sem multa" loading="lazy" srcset="https://lapateam.com/wp-content/uploads/2021/10/selo-garantia-7dias-low.png 316w, https://lapateam.com/wp-content/uploads/2021/10/selo-garantia-7dias-low-287x300.png 287w" sizes="(max-width: 316px) 100vw, 316px" /></noscript></div></div></div></div><div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-54aefb9" data-id="54aefb9" data-element_type="column"><div class="elementor-widget-wrap elementor-element-populated"><div class="elementor-element elementor-element-ff2e34b elementor-widget elementor-widget-heading" data-id="ff2e34b" data-element_type="widget" data-widget_type="heading.default"><div class="elementor-widget-container"><h2 class="elementor-heading-title elementor-size-default">Escolha seu plano</h2></div></div></div></div></div></section><section class="elementor-section elementor-inner-section elementor-element elementor-element-8d7d3e5 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="8d7d3e5" data-element_type="section"><div class="elementor-container elementor-column-gap-wider"><div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6167014" data-id="6167014" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"><div class="elementor-widget-wrap elementor-element-populated"><div class="elementor-element elementor-element-c5dec91 elementor-widget elementor-widget-heading" data-id="c5dec91" data-element_type="widget" data-widget_type="heading.default"><div class="elementor-widget-container"><h3 class="elementor-heading-title elementor-size-default">Básico</h3></div></div><div class="elementor-element elementor-element-987c62e elementor-widget elementor-widget-text-editor" data-id="987c62e" data-element_type="widget" data-widget_type="text-editor.default"><div class="elementor-widget-container"><p>Treino gravado mensal <br>montado pelo Lapa​</p></div></div><div class="elementor-element elementor-element-3328768 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3328768" data-element_type="widget" data-widget_type="icon-list.default"><div class="elementor-widget-container"><ul class="elementor-icon-list-items"><li class="elementor-icon-list-item">
-<span class="elementor-icon-list-text">Séries novas todos os meses</span></li><li class="elementor-icon-list-item">
-<span class="elementor-icon-list-text">Para fazer onde e quando quiser</span></li><li class="elementor-icon-list-item">
-<span class="elementor-icon-list-text">Exercícios em vídeo</span></li><li class="elementor-icon-list-item">
-<span class="elementor-icon-list-text">Ficha digital das séries</span></li><li class="elementor-icon-list-item">
-<span class="elementor-icon-list-text">Suporte completo</span></li></ul></div></div><div class="elementor-element elementor-element-96ea56f elementor-widget elementor-widget-price-table" data-id="96ea56f" data-element_type="widget" data-widget_type="price-table.default"><div class="elementor-widget-container"><div class="elementor-price-table"><div class="elementor-price-table__price">
-<span class="elementor-price-table__currency">R$</span>									<span class="elementor-price-table__integer-part">29</span><div class="elementor-price-table__after-price">
-<span class="elementor-price-table__fractional-part">,90</span><span class="elementor-price-table__period elementor-typo-excluded">&nbsp; por mês</span></div></div><ul class="elementor-price-table__features-list"><li class="elementor-repeater-item-4cda4b6"><div class="elementor-price-table__feature-inner">
-<i class="" aria-hidden="true"></i>
-&nbsp;</div></li></ul><div class="elementor-price-table__footer">
-<a class="elementor-price-table__button elementor-button elementor-size-md" href="https://hotm.art/3WDVL5pX" target="_blank">Assine agora</a></div></div></div></div></div></div><div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0cea90a" data-id="0cea90a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"><div class="elementor-widget-wrap elementor-element-populated"><div class="elementor-element elementor-element-ad6a1f9 elementor-widget elementor-widget-heading" data-id="ad6a1f9" data-element_type="widget" data-widget_type="heading.default"><div class="elementor-widget-container"><h3 class="elementor-heading-title elementor-size-default">Full</h3></div></div><div class="elementor-element elementor-element-2a06d91 elementor-widget elementor-widget-text-editor" data-id="2a06d91" data-element_type="widget" data-widget_type="text-editor.default"><div class="elementor-widget-container"><p>Academia Online com + de 260 Treinos <span style="color: #f537f7;">AO VIVO</span> por mês</p></div></div><div class="elementor-element elementor-element-0ed070d elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="0ed070d" data-element_type="widget" data-widget_type="icon-list.default"><div class="elementor-widget-container"><ul class="elementor-icon-list-items"><li class="elementor-icon-list-item">
+   <style>
+
+div{
+    background-color: RGBA(225,233,255,1);
+    position: relative;
+    top: 50%;
+    border-radius: 15px;
+    color: rgb(0,0,0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+  
+.target{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+}
+
+
+    
+   </style>
+
+<h1>🅴🆂🅲🅾🅻🅷🅰 🆂🅴🆄 🅿🅻🅰🅽🅾</h1>
+<div>
 <span class="elementor-icon-list-text">Acesso a 100% dos Treinos Online e Ao Vivo!</span></li><li class="elementor-icon-list-item">
 <span class="elementor-icon-list-text">Treino de musculação com o Lapa e um timaço de professores</span></li><li class="elementor-icon-list-item">
 <span class="elementor-icon-list-text">Treinos de segunda a sexta, de manhã até a noite</span></li></ul></div></div><div class="elementor-element elementor-element-472a40a elementor-view-default elementor-widget elementor-widget-icon" data-id="472a40a" data-element_type="widget" data-widget_type="icon.default"><div class="elementor-widget-container"><div class="elementor-icon-wrapper"><div class="elementor-icon">
@@ -33,7 +46,7 @@
 <i class="" aria-hidden="true"></i>
 <span>
 *Pagamento parcelado em 12x no cartão de crédito. <br> Total R$ 599,8 									</span></div></li></ul><div class="elementor-price-table__footer">
-<a class="elementor-price-table__button elementor-button elementor-size-md" href="https://pay.hotmart.com/D40353964X?off=c81umhdp&amp;checkoutMode=10" target="_blank">Assine agora</a></div></div></div></div><div class="elementor-element elementor-element-5900bcf preco-full elementor-widget elementor-widget-price-table" data-id="5900bcf" data-element_type="widget" data-widget_type="price-table.default"><div class="elementor-widget-container"><div class="elementor-price-table"><div class="elementor-price-table__header"><h3 class="elementor-price-table__heading">Trimestral</h3></div><div class="elementor-price-table__price">
+<a class="elementor-price-table__button elementor-button elementor-size-md" href="https://pay.hotmart.com/D40353964X?off=c81umhdp&amp;checkoutMode=10" target="_blank">Assine agora</a></div></div></div></div><div class="elementor-element elementor-element-5900bcf preco-full elementor-widget elementor-widget-price-table" data-id="5900bcf" data-element_type="widget" data-widget_type="price-table.default"><div class="elementor-widget-container"><div class="elementor-price-table"><div class="elementor-price-table__header"><h3 class="elementor-price-table__heading">Trimestral</h3></div><div class="elementor-price-table__price"></div>
 <span class="elementor-price-table__currency">R$</span>									<span class="elementor-price-table__integer-part">59</span><div class="elementor-price-table__after-price">
 <span class="elementor-price-table__fractional-part">,50</span><span class="elementor-price-table__period elementor-typo-excluded">&nbsp; por mês*</span></div></div><ul class="elementor-price-table__features-list"><li class="elementor-repeater-item-4cda4b6"><div class="elementor-price-table__feature-inner">
 <i class="" aria-hidden="true"></i>
@@ -44,7 +57,10 @@
 <span class="elementor-price-table__fractional-part">,00</span><span class="elementor-price-table__period elementor-typo-excluded">&nbsp; por mês</span></div></div><ul class="elementor-price-table__features-list"><li class="elementor-repeater-item-4cda4b6"><div class="elementor-price-table__feature-inner">
 <i class="" aria-hidden="true"></i>
 &nbsp;</div></li></ul><div class="elementor-price-table__footer">
-<div class="elementor-background-overlay"></div>
+<a class="elementor-price-table__button elementor-button elementor-size-md" href="https://hotm.art/6XdFwip" target="_blank">Assine agora</a></div></div></div></div></div></div></div></section><div class="elementor-element elementor-element-1f4c268 animated-fast elementor-widget elementor-widget-image animated zoomIn" data-id="1f4c268" data-element_type="widget" id="lapa-experimente" data-settings="{&quot;_animation_delay&quot;:0,&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default"><div class="elementor-widget-container">
+
+
+
 
 </body>
 </html>
